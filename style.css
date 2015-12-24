@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+/* ここから960グリッドシステム 
+12カラムバージョン
+*/
+body{
+margin:0;
+padding:0;
+}
+
+.grid_1 {
+     width:60px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_2 {
+     width:140px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_3 {
+     width:220px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+
+}
+
+.grid_4 {
+     width:300px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_5 {
+     width:380px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_6 {
+     width:460px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_7 {
+     width:540px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_8 {
+     width:620px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_9 {
+     width:700px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_10 {
+     width:780px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_11 {
+     width:860px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+.grid_12 {
+     width:940px;
+     margin-left: 10px;
+     margin-right: 10px
+}
+
+/* 箱の中に箱を作るとき一番右、一番左になる箱のmarginをなくす
+一番左の箱にはalphaを一番右の箱にはomegaを追加
+
+*/
+
+
+.alpha {
+     margin-left: 0;
+}
+
+.omega {
+     margin-right: 0;
+}
+
+/* ここまで960_12カラムグリッドシステム */
+
+.bgcolor1 {
+	background-color:#D69595;
+}
+.bgcolor2 {
+	background-color:#B6D695;
+}
+.bgcolor3 {	
+	background-color:#95D6CF;
+}
+.bgcolor4 {	
+	background-color:#95A3D6;
+}
+.bgcolor5 {	
+	background-color:#D695C7;	
+}
+
+
+/*comon*/
+.container {
+	margin:0 auto;
+}
+.header {
+	height:200px;
+}
+.nav {
+	height:100px;
+}
+.main {
+	height:800px;
+}
+.left {
+	height:800px;
+}
+.right {
+	height:800px;
+}
+
+.footer {
+	height:60px;
+}
+.left01 {
+	width:250px;
+	height:500px;
+	margin:10px;
+}
+.left02 {
+	width:200px;
+	height:100px;
+	margin:20px 25px;
+}
+.left03 {
+	width:200px;
+	height:100px;
+	margin:0 25px;
+}
+
+
+
+/*----clearfix--------*/
+.clearfix:after {
+content:'';
+display:block;
+width:100%;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+/*-------clear---------*/
+.clear {
+clear:both;
+}
